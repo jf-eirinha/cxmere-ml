@@ -1,2 +1,14 @@
-// ignore model checkpoints
+# model checkpoints
 *.pth
+
+# python virtual environments
+venv/
+env/
+env_bak/
+
+# others (python)
+*.pyc
+*.pyo
+__pycache__/
+*.egg-info/
+.dist-info/
