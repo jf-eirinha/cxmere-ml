@@ -9,3 +9,11 @@ To download the checkpoints for each of SAM's models go [here](https://github.co
 ## Installation
 
 TO DO.
+
+## Scripts
+
+Run inference for a given image and show the image with masks:
+
+```
+python scripts/SAM-run-on-image.py --image /path/to/image
+```
