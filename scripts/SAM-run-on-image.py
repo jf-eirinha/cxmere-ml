@@ -12,7 +12,7 @@ parser.add_argument(
     "--model-type",
     type=str,
     required=False,
-    default="default",
+    default="vit_b",
     help="The type of model to load, in ['default', 'vit_h', 'vit_l', 'vit_b'].",
 )
 
@@ -22,7 +22,6 @@ parser.add_argument(
 
 
 CHECKPOINT_PATH = {
-    "default": "./checkpoints/sam_vit_h_4b8939.pth",
     "vit_h": "./checkpoints/sam_vit_h_4b8939.pth",
     "vit_l": "./checkpoints/sam_vit_l_0b3195.pth",
     "vit_b": "./checkpoints/sam_vit_b_01ec64.pth",
